@@ -11,7 +11,6 @@ import {
 } from 'react-native'
 import MyAppBar from '../components/MyAppBar'
 import Screen from '../components/Screen'
-import ModalComponent from '../components/CardModal'
 import CardModal from '../components/CardModal'
 
 export default function HomeScreen({ navigation }) {
@@ -73,12 +72,6 @@ export default function HomeScreen({ navigation }) {
             </TouchableOpacity>
 
             <CardModal modalName="Add Card" />
-            {/* <TouchableOpacity
-              style={[styles.activateButton, styles.cardButton]}
-              onPress={() => navigation.navigate("CardScreen")}
-            >
-              <Text style={styles.activateButtonText}>Card</Text>
-            </TouchableOpacity> */}
           </View>
         </View>
 
